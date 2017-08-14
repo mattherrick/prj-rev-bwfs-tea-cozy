@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    font-family: helvetica;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a {
+    color: seashell;
+}
+
+span {
+    margin-right: 10px;
+}
+
+.navigation {
+    text-decoration: underline;
+    width: 100%;
+    height: 69px;
+    top: 0; 
+    left: 0;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logocontainer {
+    margin-left: 10px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navcontainer {
+    flex-basis: 300px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navcontainer span {
+    margin-left: 20px;
+}
+
+.container {
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mission {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+}
+
+.missionhead {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+
+#featuredtea {
+    text-align: center;
+    margin: 80px 0 0 0;
+}
+
+.teacontainer {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 1100px;
+}
+
+.cell {
+    margin: 10px 20px;
+    height: 200px;
+    margin-bottom: 60px;
+}
+
+.teaimage {
+    height: 200px;
+    width: 300px;
+}
+
+.teahead {
+    margin: 10px;
+}
+
+#locations {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    width: 1200px;
+    min-height: 500px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding: 0;
+    align-content: flex-start;
+}
+
+.locationhead {
+    width: 100%;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.locationhead h2 {
+    padding: 0;
+    margin: 0; 
+}
+
+.location-square {
+    margin: 15px;
+    width: 300px;
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+footer {
+    color: white;
+    top: 60px;
+    position: relative;
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
